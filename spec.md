@@ -189,6 +189,19 @@ taken into consideration.
 The term `int_expression` has been introduced and will be elaborated upon in the upcoming sections. Essentially,
 `int_expression` encompasses classical operations that ultimately yield an integer value.
 
+#### Bit Ordering and Endianness
+
+PHIR uses **little-endian bit ordering** for classical variables. This means that bit index 0 corresponds to the least
+significant bit (LSB) of the integer value, and higher bit indices correspond to more significant bits. In other words,
+<!-- markdownlint-disable-next-line MD033 -->
+`variable[i]` represents the bit with weight 2<sup>i</sup> in the binary representation of the integer.
+
+For example, if a variable `a` has bits where `a[0]==0` and `a[1]==1` (and all other bits are 0), this represents the
+integer value 2 (binary `0b10`). Similarly:
+
+- Assigning `{"cop": "=", "args": [2], "returns": ["b"]}` results in `b[0]==0` and `b[1]==1`
+- Assigning `{"cop": "=", "args": [5], "returns": ["c"]}` results in `c[0]==1`, `c[1]==0`, and `c[2]==1` (binary `0b101`)
+
 ### Integer Expressions
 
 In PHIR, an integer expression encompasses any combination of arithmetic, comparison, or bitwise operations, including
