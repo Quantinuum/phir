@@ -25,16 +25,16 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-  "pydantic~=2.12.3",
-  "rich>=14.2,<14.4"
+  "pydantic>=2.12.3,<2.14.0",
+  "rich>=14.2,<15.1"
 ]
 
 [dependency-groups]
 dev = [
   "autodoc-pydantic==2.2.0",
-  "pre-commit==4.5.1",
-  "pydata_sphinx_theme==0.16.1",
-  "pytest==9.0.3",
+  "pre-commit==4.6.0",
+  "pydata_sphinx_theme==0.19.0",
+  "pytest==9.1.1",
   "sphinx~=8.1.3",
 ]
 
