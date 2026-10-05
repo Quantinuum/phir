@@ -54,10 +54,10 @@ class CVarDefine(Data):
         if self.size:
             match self.data_type:
                 case "i64" | "u64":
-                    if self.size > 64:  # noqa: PLR2004
+                    if self.size > 64:  # ruff: ignore[magic-value-comparison]
                         raise ValueError(msg)
                 case "i32" | "u32":
-                    if self.size > 32:  # noqa: PLR2004
+                    if self.size > 32:  # ruff: ignore[magic-value-comparison]
                         raise ValueError(msg)
         return self
 
@@ -161,7 +161,7 @@ class SQOp(Op):
         msg = "Incorrect number of angles for the given gate."
         match self.qop:
             case "R1XY":
-                if not self.angles or len(self.angles[0]) != 2:  # noqa: PLR2004
+                if not self.angles or len(self.angles[0]) != 2:  # ruff: ignore[magic-value-comparison]
                     raise ValueError(msg)
             case "RX" | "RY" | "RZ":
                 if not self.angles or len(self.angles[0]) != 1:
@@ -205,7 +205,7 @@ class TQOp(Op):
                     msg = f"{self.qop} gate requires exactly one angle parameter."
                     raise ValueError(msg)
             case "R2XXYYZZ":
-                if not self.angles or len(self.angles[0]) != 3:  # noqa: PLR2004
+                if not self.angles or len(self.angles[0]) != 3:  # ruff: ignore[magic-value-comparison]
                     msg = f"{self.qop} gate requires three angle parameters."
                     raise ValueError(msg)
             case _:
