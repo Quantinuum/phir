@@ -17,7 +17,7 @@ from importlib.metadata import version
 from pathlib import Path
 
 from pydantic import ValidationError
-from rich import print  # noqa: A004
+from rich import print  # ruff: ignore[builtin-import-shadowing]
 
 from phir.model import PHIRModel
 
