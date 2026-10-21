@@ -1,7 +1,7 @@
 # PHIR: _[PECOS](https://github.com/PECOS-packages/PECOS) High-level Intermediate Representation_
 
 [![PyPI version](https://badge.fury.io/py/phir.svg)](https://badge.fury.io/py/phir)
-[![Python versions](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://img.shields.io/badge/python-3.10%2C%203.11%2C%203.12-blue.svg)
+[![Python versions](https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue.svg)](https://img.shields.io/badge/python-3.12%2C%203.13%2C%203.14%2C%203.15-blue.svg)
 
 `phir` models the [PHIR specification](./spec.md) as a [Pydantic](https://docs.pydantic.dev/latest/) model.
 See [our docs](https://quantinuum.github.io/phir/).
@@ -9,7 +9,7 @@ Included is the tool `phir-cli` that provides validation and pretty printing on 
 
 ## Prerequisites
 
-Python >=3.10
+Python >=3.12
 
 ## Installation
 
