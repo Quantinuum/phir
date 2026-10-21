@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Require Python 3.12 or newer and test Python 3.12 through 3.15 in CI.
+- Update Pydantic and development dependencies.
+- Use SPDX license metadata supported by setuptools 77 and newer.
+
 ## [0.3.1] - 2024-03-04
 
 ### Added

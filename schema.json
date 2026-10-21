@@ -42,6 +42,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -154,6 +155,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -227,6 +229,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -278,6 +281,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -376,6 +380,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -444,6 +449,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -573,6 +579,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -639,6 +646,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -685,6 +693,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -736,6 +745,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -833,6 +843,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -906,6 +917,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -988,6 +1000,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -1100,6 +1113,7 @@
         "metadata": {
           "anyOf": [
             {
+              "additionalProperties": true,
               "type": "object"
             },
             {
@@ -1185,6 +1199,7 @@
     "metadata": {
       "anyOf": [
         {
+          "additionalProperties": true,
           "type": "object"
         },
         {
