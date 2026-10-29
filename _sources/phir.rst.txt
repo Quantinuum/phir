@@ -1,0 +1,29 @@
+phir package
+============
+
+Submodules
+----------
+
+phir.cli module
+---------------
+
+.. automodule:: phir.cli
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+phir.model module
+-----------------
+
+.. automodule:: phir.model
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: phir
+   :members:
+   :show-inheritance:
+   :undoc-members:
